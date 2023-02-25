@@ -1,6 +1,61 @@
-div
-{
-    color: white;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
-    background-color: black;
+/* Diese Klasse überschreibt alles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+}
+
+li, a, div{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 55px 3%;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a:hover {
+    color: #0088a9
+}
+
+
+
+/* Variablen legt man mit root Element fest */
+
+:root
+{
+    --primary-color: white;
+    --secondary-color: black;
+}
+
+.dark_mode
+{
+    --primary-color: #21272d;
+    --secondary-color: white;
+}
+
+body
+{
+    background-color: var(--primary-color);
+}
+
+.headline
+{
+    padding: 150px;
+    font-size: 25px;
+    text-align: left;
 }

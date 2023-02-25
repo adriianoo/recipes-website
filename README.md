@@ -1,3 +1,3 @@
-# recipes
+# Recipes
 
-This Programm should become a cookbook for my family
+This Programm is becoming a cookbook for my family

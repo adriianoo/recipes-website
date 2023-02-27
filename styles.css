@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
-/* Diese Klasse überschreibt alles */
+/* Nav-bar start */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -31,10 +31,11 @@ header {
 .nav_links li a:hover {
     color: #0088a9
 }
+/* Nav-bar end */
 
 
-
-/* Variablen legt man mit root Element fest */
+/* "Variablen legt man mit ":root" Element fest" 
+   Für zukünftigen Dark-mode deklariert */
 
 :root
 {
@@ -56,6 +57,7 @@ body
 .headline
 {
     padding: 150px;
-    font-size: 25px;
+    font-size: 22px;
+    text-transform: uppercase;
     text-align: left;
 }

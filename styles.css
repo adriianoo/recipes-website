@@ -34,24 +34,10 @@ header {
 /* Nav-bar end */
 
 
-/* "Variablen legt man mit ":root" Element fest" 
-   Für zukünftigen Dark-mode deklariert */
-
-:root
-{
-    --primary-color: white;
-    --secondary-color: black;
-}
-
-.dark_mode
-{
-    --primary-color: #21272d;
-    --secondary-color: white;
-}
 
 body
 {
-    background-color: var(--primary-color);
+    background-color: #24252A;
 }
 
 .headline
@@ -60,4 +46,9 @@ body
     font-size: 22px;
     text-transform: uppercase;
     text-align: left;
+}
+
+.headline h1
+{
+    color: #03a9f4;
 }
